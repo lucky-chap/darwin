@@ -24,9 +24,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![[Project Preview]](./public/darwin.mp4)
 
-My motivation for building this was that I have seen a lot of apps like this lately, so I figured I'd build some. It's pretty useful because I can customize it anyhow I want and add more features. ❤️➕🌑
+https://user-images.githubusercontent.com/67266933/165561321-b36bfcf8-3fc0-4be9-96ff-fb2b0fa93f2e.mp4
+
+
+
+My motivation for building this was that I have seen a lot of apps like this lately, so I figured I'd build one. It's pretty useful because I can customize it anyhow I want and add more features. ❤️➕🌑
 
 
 
