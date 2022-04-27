@@ -85,7 +85,8 @@ export default function Window({ colors, language, padding,
           <div className="title-button" />
         </div>
         <p className="title-text">
-          <img src={`/lang_icons/${LANGUAGE[language]}.svg`} alt="" className="language-icon"/>
+          <img src={`/lang_icons/${LANGUAGE[language]}.svg`} alt="" className="language-icon" />
+          {/* contentEditable makes the span editable in the browser. it is not managed by React */}
           <span contentEditable onBlur={onFilenameChange}>{ filename }</span>
         </p>
       </div>
