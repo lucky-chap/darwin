@@ -1,0 +1,62 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: var(--header-background);
+  padding: 20px 25px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: var(--header-border);
+  box-shadow: var(--header-box-shadow);
+  padding-bottom: 5px;
+}
+
+.header__part {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.app-logo {
+  --size: 30px;
+  width: var(--size);
+  height: var(--size);
+  margin-right: 15px;
+}
+
+.app-name {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+
+.input-label {
+  color: var(--option-name);
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.input-box {
+  border: 1px solid var(--option-box-border);
+  border-radius: 3px;
+  width: 40px;
+  height: 30px;
+  color: var(--input-value);
+  padding: 0 10px;
+  background-color: var(--header-background);
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 20px;
+}

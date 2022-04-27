@@ -1,0 +1,13 @@
+.github {
+  border-radius: 5px;
+  color: #d1d1d1;
+  cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  text-decoration: none;
+  padding: 2px 10px;
+  padding-right: 15px;
+}
+
+

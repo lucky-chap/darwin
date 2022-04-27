@@ -1,0 +1,46 @@
+.background-color-1 {
+  background: linear-gradient(to left, #514A9D, #24C6DC);
+}
+
+.background-color-2 {
+  background: linear-gradient(to right, #D7DDE8, #757F9A);
+}
+
+.background-color-3 {
+  background: linear-gradient(to right, #93F9B9, #1D976C);
+}
+
+.background-color-4 {
+  background: linear-gradient(354deg,  #FF75B5, #FFB86C);
+}
+
+.background-color-5 {
+  background: linear-gradient(to left, #fc6767, #ec008c);
+}
+
+.background-color-6 {
+  background: linear-gradient(337deg, #654ea3, #da98b4);
+}
+
+.background-color-7 {
+  background: linear-gradient(337deg, #2d214c, #beda95);
+}
+
+.background-color-8 {
+  background: linear-gradient(337deg, #2a9183, #3273a7);
+}
+
+.background-color-transparent {
+  background-color: #131313;
+  opacity: 1;
+  background-image:  repeating-linear-gradient(45deg, #565656 25%, transparent 25%, transparent 75%, #565656 75%, #565656), repeating-linear-gradient(45deg, #565656 25%, #131313 25%, #131313 75%, #565656 75%, #565656);
+  background-position: 0 0, 12px 12px;
+  background-size: 24px 24px;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+}
+

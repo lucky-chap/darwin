@@ -1,0 +1,31 @@
+.button {
+  height: 31px;
+  padding: 0 15px;
+  border: none;
+  font-size: 0.8em;
+  margin-left: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.button:nth-child(1) {
+  margin-left: 0;
+}
+
+.button.record {
+  color: #63cbff;
+  background-color: rgba(99, 219, 255, 0.15);
+}
+
+.button.export {
+  color: #080c09;
+  background-color: #3ceb8a;
+}
+
+.button.disabled {
+  cursor: not-allowed;
+}
